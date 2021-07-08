@@ -42,4 +42,5 @@ function piecesOfCandy(candy) {
   const colours = { R: [], B: [], G: [] };
   let pulls = 0;
   for (let i = colours; i > 0; i--) colours["A"].push(i);
+  const doIt = (pulls, candy) => {};
 }
